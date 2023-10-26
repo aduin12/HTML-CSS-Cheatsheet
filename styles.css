@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(233, 223, 223);
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: hsl(194, 73%, 71%)
+} 
+
+h1, p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+th {
+    font-size: large;
+}
+
+.tag_name{
+    background-color: hsla(203, 100%, 50%, 0.43);
+}

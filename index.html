@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Element Cheatsheet</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- This section introduces what this page is about -->
+        <div class="introduction">
+            <h1>HTML Element Cheatsheet</h1>
+            <p>Some notes before reviewing the table. Remember that all elements below require a closing tag 
+                e.g &lt;h1&gt;This is a header&lt;/h1&gt; unless otherwise specified.</p>
+        </div>
+
+        <!-- This table lists the important elements of HTML -->
+       <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Element Name</th>
+                        <th class="tag_name">HTML Tag</th>
+                        <th>Element Description</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Headings</td>
+                        <td class="tag_name">&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</td>
+                        <td>These tags define HTML headings. &lt;h1&gt; is used for main headings, followed by &lt;h2&gt; 
+                            headings, then the less important &lt;h3&gt;, and so on.</td>
+                    </tr>
+                    <tr>
+                        <td>Paragraph Element</td>
+                        <td class="tag_name">&lt;p&gt;</td>
+                        <td>This element represents a paragraph. Paragraphs are usually represented as blocks of text.</td>
+                    </tr>
+                    <tr>
+                        <td>Ordered and Unordered Lists</td>
+                        <td class="tag_name">&lt;ol&gt; or &lt;ul&gt;</td>
+                        <td>These list elements are used to designate the beginning of a list. Using the &lt;ol&gt; 
+                            tag will create a numbered list. Using the &lt;ul&gt; tag will create a list with bullet points. </td>
+                    </tr>
+                    <tr>
+                        <td>List Element</td>
+                        <td class="tag_name">&lt;li&gt;</td>
+                        <td>The list item element can be used to create list items inside ordered lists &lt;ol&gt; 
+                            and unordered lists &lt;ul&gt;.</td>
+                    </tr>
+                    <tr>
+                        <td>Link Element</td>
+                        <td class="tag_name">&lt;link&gt;</td>
+                        <td>The link tag defines the relationship between the current document and an external resource. 
+                            The link element is an empty element, it contains attributes only and a closing tag is not needed. 
+                            The link tag is most often used to link to external style sheets. Here is an example of a link tag 
+                            in html: <em>&lt;link rel="stylesheet" href="styles.css"&gt;</em>.</td>
+                    </tr>
+                    <tr>
+                        <td>Video Element</td>
+                        <td class="tag_name">&lt;video&gt;</td>
+                        <td>The video element embeds a media player for video playback. Here is an example of the video element 
+                            being used in html: <em>&lt;video src ="test-video.mp4" controls&gt; Video not supported &lt;/video&gt;</em>. 
+                            The src attribute will contain the URL to the video. Adding the controls attribute will display video controls 
+                            in the media player. The content inside the opening and closing tag is shown as a fallback in browsers that 
+                            don't support the element.</td>
+                    </tr>
+                    <tr>
+                        <td>Image Element</td>
+                        <td class="tag_name">&lt;img&gt;</td>
+                        <td>The image tag is used to embed an image in an HTML page. Images are not techincally inserted into a web page;
+                             images are linked to web pages. The image tag creates a holding space for the reference image. The image tag
+                              has two required attributes: src and alt. src specifies the path to the image and alt specifies an alternate
+                               text for the image, if the image for some reason cannot be displayed.</td>
+                    </tr>
+                    <tr>
+                        <td>Emphasis Element</td>
+                        <td class="tag_name">&lt;em&gt;</td>
+                        <td>The emphasis element emphasizes text. Browsers will usually <em>italicize</em> the emphasized text 
+                            by default.</td>
+                    </tr>
+                    <tr>
+                        <td>Strong Element</td>
+                        <td class="tag_name">&lt;strong&gt;</td>
+                        <td>The strong element highlights important, serious, or urgent text and browsers will normally render this 
+                            highlighted text in <strong>bold</strong> by default.</td>
+                    </tr>
+                    <tr>
+                        <td>Div Element</td>
+                        <td class="tag_name">&lt;div&gt;</td>
+                        <td>The div element is used as a container that divides an HTML document into section and is short for 
+                            "division". Div elements can contain <em>flow content</em> such as headings, paragraphs, links, 
+                            images, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>Closing tag</td>
+                        <td class="tag_name">&lt;/__&gt;</td>
+                        <td>An HTML closing tag is used to denote the end of an HTML element. Most HTML elements need a closing tag.</td>
+                    </tr>
+                    <tr>
+                        <td>Body Element</td>
+                        <td class="tag_name">&lt;body&gt;</td>
+                        <td>The body element represents the content of the HTML document. Content inside body tags are rendered on the 
+                            web browsers. There can only be one body element in a document.</td>
+                    </tr>
+                    <tr>
+                        <td>Span Element</td>
+                        <td class="tag_name">&lt;span&gt;</td>
+                        <td>The span element is an inline container for text and can be used to group text for styling purposes. 
+                            However as span is a generic container to separate pieces of text from a larger body of text, its use 
+                            should be avoided if a more semantic element is available.</td>
+                    </tr>
+                    <tr>
+                        <td>Head Element</td>
+                        <td class="tag_name">&lt;head&gt;</td>
+                        <td>Contains the metadata/information for the document. Usually where the CSS stylesheet is linked and the 
+                            title of the website is listed.</td>
+                    </tr>
+                    <tr>
+                        <td>Title Element</td>
+                        <td class="tag_name">&lt;title&gt;</td>
+                        <td>Defines a title for the document</td>
+                    </tr>
+                    <tr>
+                        <td>The a Tag</td>
+                        <td class="tag_name">&lt;a&gt;</td>
+                        <td>The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another. The most important 
+                            attribute of the &lt;a&gt; element is the href attribute, which indicates the link's destination. 
+                            By default, links will appear in all browsers as underlined and blue when unvisited, 
+                            underlined and purple as visited, and underlined and red when active. 
+                            Here is an example of the &lt;a&gt; tag in HTML: 
+                            <em>&lt;a href="https://www.coolmathgames.com"&gt;Visit the best website on the internet!&lt;/a&gt;</em></td>
+                    </tr>
+                </tbody>
+
+            </table>
+       </div>
+        
+        
+    </body>
+</html>
